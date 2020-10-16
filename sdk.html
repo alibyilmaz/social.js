@@ -15,7 +15,7 @@
     <script>
         window.fbAsyncInit = function () {
             FB.init({
-                appId: 'your-app-id',
+                appId: '1213460715702828',
                 autoLogAppEvents: true,
                 xfbml: true,
                 version: 'v8.0'
@@ -77,7 +77,7 @@
           </ul>
         `;
 
-            document.getElementById('prorfile').innerHTML = profile;
+            document.getElementById('profile').innerHTML = profile;
         }
 
         function buildFeed(feed) {
@@ -93,6 +93,7 @@
             }
             document.getElementById('feed').innerHTML = output;
         }
+
         function setElements(isLoggedIn) {
             if (isLoggedIn) {
                 document.getElementById('logout').style.display = 'block';
