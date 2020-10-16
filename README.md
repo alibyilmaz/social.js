@@ -1,2 +1,2 @@
 # social.js
-facebook js sdk for user data
+facebook js sdk to login and graph api
